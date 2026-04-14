@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalSub Manager</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #0f0d0a;
+      color: #e8e0d4;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 640px;
+      width: 100%;
+      padding: 80px 24px 40px;
+      text-align: center;
+    }
+    .icon {
+      width: 96px;
+      height: 96px;
+      background: linear-gradient(135deg, #c9a96e, #8b6914);
+      border-radius: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      color: #a89a86;
+      margin-bottom: 48px;
+      line-height: 1.6;
+    }
+    .features {
+      text-align: left;
+      margin-bottom: 48px;
+    }
+    .feature {
+      padding: 16px 0;
+      border-bottom: 1px solid #1e1a15;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    .feature:last-child { border-bottom: none; }
+    .feature-icon {
+      font-size: 1.4rem;
+      min-width: 32px;
+      text-align: center;
+      line-height: 1.6;
+    }
+    .feature h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e8e0d4;
+      margin-bottom: 4px;
+    }
+    .feature p {
+      font-size: 0.875rem;
+      color: #8a7e6e;
+      line-height: 1.5;
+    }
+    .support-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #c9a96e;
+      color: #0f0d0a;
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background 0.2s;
+      margin-bottom: 48px;
+    }
+    .support-btn:hover { background: #dab978; }
+    .legal {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-top: 24px;
+    }
+    .legal a {
+      color: #8a7e6e;
+      text-decoration: none;
+      font-size: 0.875rem;
+    }
+    .legal a:hover { color: #c9a96e; }
+    footer {
+      margin-top: auto;
+      padding: 24px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #4a4239;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">LS</div>
+    <h1>LocalSub Manager</h1>
+    <p class="tagline">Track subscriptions. Privately. Offline. Finally.</p>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">&#128274;</div>
+        <div>
+          <h3>100% Private</h3>
+          <p>No accounts. No analytics. No data ever leaves your device.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#128225;</div>
+        <div>
+          <h3>Offline First</h3>
+          <p>Works without internet. Your data stays on your phone, always.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#128176;</div>
+        <div>
+          <h3>Know Where Your Money Goes</h3>
+          <p>Track every subscription, set reminders, and see spending breakdowns by category.</p>
+        </div>
+      </div>
+    </div>
+
+    <a href="mailto:info@babubooshik.com" class="support-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      Contact Support
+    </a>
+
+    <div class="legal">
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 LocalSub Manager. All rights reserved.
+  </footer>
+</body>
+</html>
